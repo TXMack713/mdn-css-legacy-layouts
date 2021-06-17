@@ -1,0 +1,62 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  word-break: keep-all;
+  hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  /* pin palette
+  #1E60DC
+  #A4A7DE
+  #E6F4F1
+  #C0A975 */
+  background: #c0a975;
+  font-family: 'Open Sans', sans-serif;
+  width: 90%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Bitter', serif;
+  font-weight: 900;
+  font-size: 2.6rem;
+}
+
+.wrapper {
+  padding-right: 2.08333333%;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  margin-left: 2.08333333%;
+  margin-bottom: 1em;
+  width: 6.25%;
+  flex: 1 1 auto;
+  background: rgb(255, 150, 150);
+}
+
+footer {
+  clear: both;
+}
